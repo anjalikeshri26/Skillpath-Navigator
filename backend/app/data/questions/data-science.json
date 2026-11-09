@@ -1,0 +1,56 @@
+{
+  "topic": "Data Science",
+  "category": "Artificial intelligence",
+  "description": "Placement preparation: Data Science",
+  "estimated_hours": 25,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which measure of central tendency is least affected by outliers?",
+      "options": [
+        "Mean",
+        "Median",
+        "Range",
+        "Variance"
+      ],
+      "answer_index": 1,
+      "explanation": "The median depends on the middle value, not the extremes."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "Which pandas method shows the first rows of a DataFrame?",
+      "options": [
+        "head()",
+        "top()",
+        "first_rows()",
+        "peek()"
+      ],
+      "answer_index": 0,
+      "explanation": "df.head() returns the first five rows by default."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "A correlation coefficient of -0.9 indicates:",
+      "options": [
+        "A strong negative linear relationship",
+        "A weak positive relationship",
+        "No relationship",
+        "That one variable causes the other"
+      ],
+      "answer_index": 0,
+      "explanation": "The sign gives direction and the magnitude gives strength; correlation does not imply causation."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "What is data leakage?",
+      "options": [
+        "Information from outside the training data, such as the test set, influencing model training",
+        "Losing rows during cleaning",
+        "A server breach",
+        "Overfitting from too many epochs"
+      ],
+      "answer_index": 0,
+      "explanation": "Leakage inflates evaluation results because the model has seen information it would not have at prediction time."
+    }
+  ]
+}

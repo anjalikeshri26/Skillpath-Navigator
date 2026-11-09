@@ -1,0 +1,11 @@
+{
+  "note": "Hand-written starter cases. Replace or extend with anonymised real resumes you have permission to use; the harness reads this file as-is.",
+  "cases": [
+    {"text": "Skills: Python, C++, SQL, Git\nProjects\n- Built a REST API with Flask and PostgreSQL\n- Solved 300+ DSA problems on LeetCode", "expected": ["python", "cpp", "sql", "git", "rest_apis", "web_frameworks", "dsa"]},
+    {"text": "Technical skills: Java, Spring Boot, MySQL, JavaScript, React\nBuilt a library system using object-oriented design and normalization", "expected": ["java", "sql", "oop", "dbms"]},
+    {"text": "Machine learning projects with scikit-learn, pandas and NumPy. Evaluated models with cross-validation and a confusion matrix. Visualised results in Matplotlib.", "expected": ["ml", "pandas", "numpy", "model_eval", "data_viz"]},
+    {"text": "Languages: C, C#, Go\nInterests: vitamin c research, digital art, mythology", "expected": ["c_lang"]},
+    {"text": "Wrote PyTorch neural networks for image classification and a RAG chatbot using embeddings and a vector database, deployed with Docker.", "expected": ["deep_learning", "llms", "docker"]},
+    {"text": "Completed an ethical hacking course covering OWASP Top 10, network security and TCP/IP. Used Linux and Wireshark.", "expected": ["cyber_security", "cn"]}
+  ]
+}

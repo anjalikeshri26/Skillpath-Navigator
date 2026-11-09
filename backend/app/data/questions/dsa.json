@@ -1,0 +1,56 @@
+{
+  "topic": "DSA",
+  "category": "Core computer science",
+  "description": "Placement preparation: DSA",
+  "estimated_hours": 40,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which data structure follows last-in, first-out order?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Tree",
+        "Graph"
+      ],
+      "answer_index": 1,
+      "explanation": "A stack removes the most recently added element first."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What is the time complexity of binary search on a sorted array?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer_index": 1,
+      "explanation": "Each step halves the remaining search range."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "What is the worst-case time complexity of quicksort with consistently poor pivots?",
+      "options": [
+        "O(n log n)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer_index": 2,
+      "explanation": "Unbalanced partitions lead to n levels of O(n) work."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "What is the amortised cost of appending to a dynamic array that doubles when full?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "answer_index": 2,
+      "explanation": "Occasional O(n) resizes are spread across many cheap appends, giving O(1) amortised."
+    }
+  ]
+}

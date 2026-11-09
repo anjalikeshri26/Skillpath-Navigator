@@ -1,0 +1,56 @@
+{
+  "topic": "Java",
+  "category": "Programming languages",
+  "description": "Placement preparation: Java",
+  "estimated_hours": 25,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which keyword prevents a class from being subclassed?",
+      "options": [
+        "static",
+        "final",
+        "abstract",
+        "private"
+      ],
+      "answer_index": 1,
+      "explanation": "A final class cannot be extended."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "How many bits does an int occupy in Java?",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "It depends on the platform"
+      ],
+      "answer_index": 1,
+      "explanation": "Java fixes int at 32 bits on every platform."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "If two objects are equal according to equals(), what does the Java contract require of hashCode()?",
+      "options": [
+        "The values must be equal",
+        "The values must differ",
+        "There is no requirement",
+        "The values must be consecutive"
+      ],
+      "answer_index": 0,
+      "explanation": "Equal objects must return the same hash code, otherwise hash-based collections misbehave."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "What do Integer a = 127, b = 127; a == b and Integer c = 128, d = 128; c == d evaluate to with default settings?",
+      "options": [
+        "true, true",
+        "true, false",
+        "false, false",
+        "false, true"
+      ],
+      "answer_index": 1,
+      "explanation": "Integer.valueOf caches values from -128 to 127, so boxed 127 refers to one object while 128 creates separate objects."
+    }
+  ]
+}

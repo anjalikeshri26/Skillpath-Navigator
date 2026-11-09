@@ -1,0 +1,56 @@
+{
+  "topic": "System Design",
+  "category": "Software engineering",
+  "description": "Placement preparation: System Design",
+  "estimated_hours": 20,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "What is the main purpose of a load balancer?",
+      "options": [
+        "Distribute incoming requests across several servers",
+        "Store persistent data",
+        "Compile source code",
+        "Encrypt disks"
+      ],
+      "answer_index": 0,
+      "explanation": "It spreads traffic to improve availability and throughput."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "Which technique keeps frequently read data in fast storage to reduce latency?",
+      "options": [
+        "Sharding",
+        "Caching",
+        "Replication lag",
+        "Backups"
+      ],
+      "answer_index": 1,
+      "explanation": "A cache serves repeated reads without hitting the slower source."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "What does horizontal scaling mean?",
+      "options": [
+        "Adding more machines",
+        "Adding more CPU or RAM to one machine",
+        "Reducing traffic",
+        "Compressing data"
+      ],
+      "answer_index": 0,
+      "explanation": "Horizontal scaling adds nodes; vertical scaling enlarges a single node."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "During a network partition, the CAP theorem says a distributed data store must choose between:",
+      "options": [
+        "Consistency and availability",
+        "Latency and throughput",
+        "Durability and isolation",
+        "Security and speed"
+      ],
+      "answer_index": 0,
+      "explanation": "When partitions occur you cannot have both strict consistency and full availability."
+    }
+  ]
+}

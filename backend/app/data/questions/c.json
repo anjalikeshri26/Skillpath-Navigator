@@ -1,0 +1,56 @@
+{
+  "topic": "C",
+  "category": "Programming languages",
+  "description": "Placement preparation: C",
+  "estimated_hours": 20,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which format specifier prints an int with printf?",
+      "options": [
+        "%f",
+        "%d",
+        "%c",
+        "%s"
+      ],
+      "answer_index": 1,
+      "explanation": "%d prints a signed decimal integer."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What is the index of the first element of a C array?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "It depends on the type"
+      ],
+      "answer_index": 1,
+      "explanation": "C arrays are zero-indexed."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "What does sizeof(char) evaluate to in C?",
+      "options": [
+        "1",
+        "2",
+        "It depends on the compiler",
+        "4"
+      ],
+      "answer_index": 0,
+      "explanation": "The standard defines sizeof(char) as exactly 1."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "After int *p = malloc(10 * sizeof(int)); free(p); what does executing *p = 5; do?",
+      "options": [
+        "Safely writes to the freed block",
+        "Has undefined behaviour (use after free)",
+        "Fails to compile",
+        "Leaks memory but is otherwise defined"
+      ],
+      "answer_index": 1,
+      "explanation": "Accessing memory after free is undefined behaviour and a common source of security bugs."
+    }
+  ]
+}

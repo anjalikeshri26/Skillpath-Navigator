@@ -1,0 +1,56 @@
+{
+  "topic": "Computer Networks",
+  "category": "Core computer science",
+  "description": "Placement preparation: Computer Networks",
+  "estimated_hours": 15,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which protocol provides reliable, ordered byte-stream delivery?",
+      "options": [
+        "UDP",
+        "IP",
+        "TCP",
+        "ARP"
+      ],
+      "answer_index": 2,
+      "explanation": "TCP uses acknowledgements and retransmission to deliver data reliably and in order."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "Which OSI layer is responsible for routing packets between networks?",
+      "options": [
+        "Data link",
+        "Network",
+        "Transport",
+        "Session"
+      ],
+      "answer_index": 1,
+      "explanation": "The network layer (IP) handles logical addressing and routing."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "What is the purpose of the TCP three-way handshake?",
+      "options": [
+        "Establish a connection and synchronise sequence numbers",
+        "Encrypt the connection",
+        "Resolve a hostname",
+        "Assign an IP address"
+      ],
+      "answer_index": 0,
+      "explanation": "SYN, SYN-ACK and ACK set up state on both ends."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "What does the TCP sliding window primarily control?",
+      "options": [
+        "How much unacknowledged data the sender may have in flight",
+        "The route a packet takes",
+        "The encryption strength",
+        "Address translation"
+      ],
+      "answer_index": 0,
+      "explanation": "The window implements flow control so the sender does not overwhelm the receiver."
+    }
+  ]
+}

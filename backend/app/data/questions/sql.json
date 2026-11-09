@@ -1,0 +1,56 @@
+{
+  "topic": "SQL",
+  "category": "Databases",
+  "description": "Placement preparation: SQL",
+  "estimated_hours": 12,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which clause filters rows before grouping?",
+      "options": [
+        "HAVING",
+        "WHERE",
+        "ORDER BY",
+        "LIMIT"
+      ],
+      "answer_index": 1,
+      "explanation": "WHERE filters input rows; HAVING filters groups after aggregation."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "Which join keeps every row from the left table even without a match on the right?",
+      "options": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "CROSS JOIN",
+        "NATURAL JOIN"
+      ],
+      "answer_index": 1,
+      "explanation": "LEFT (OUTER) JOIN fills unmatched right-side columns with NULL."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "What does COUNT(column) skip that COUNT(*) does not?",
+      "options": [
+        "Duplicate values",
+        "NULL values in that column",
+        "Zero values",
+        "Empty strings"
+      ],
+      "answer_index": 1,
+      "explanation": "COUNT(column) counts only non-NULL values; COUNT(*) counts rows."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "Which statement about window functions is true?",
+      "options": [
+        "They collapse rows like GROUP BY",
+        "They compute over related rows while keeping each row in the result",
+        "They are only allowed in WHERE",
+        "They require GROUP BY"
+      ],
+      "answer_index": 1,
+      "explanation": "A window function such as ROW_NUMBER() or SUM() OVER (...) returns a value per row without collapsing rows."
+    }
+  ]
+}

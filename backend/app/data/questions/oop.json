@@ -1,0 +1,56 @@
+{
+  "topic": "OOP",
+  "category": "Core computer science",
+  "description": "Placement preparation: OOP",
+  "estimated_hours": 12,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which concept bundles data and methods and controls access to them?",
+      "options": [
+        "Inheritance",
+        "Encapsulation",
+        "Polymorphism",
+        "Compilation"
+      ],
+      "answer_index": 1,
+      "explanation": "Encapsulation combines state and behaviour and restricts direct access."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What allows a subclass to provide its own version of a parent method?",
+      "options": [
+        "Method overriding",
+        "Encapsulation",
+        "Abstraction",
+        "Composition"
+      ],
+      "answer_index": 0,
+      "explanation": "Overriding replaces the inherited implementation and enables runtime polymorphism."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "Which relationship is described as 'has-a'?",
+      "options": [
+        "Inheritance",
+        "Composition",
+        "Overloading",
+        "Polymorphism"
+      ],
+      "answer_index": 1,
+      "explanation": "Composition means an object contains other objects as parts."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "The Liskov Substitution Principle states that:",
+      "options": [
+        "Subtypes must be usable wherever the base type is expected without breaking correctness",
+        "A class should have only one reason to change",
+        "High-level modules should not depend on low-level modules",
+        "Clients should not depend on methods they do not use"
+      ],
+      "answer_index": 0,
+      "explanation": "LSP concerns behavioural substitutability of subtypes."
+    }
+  ]
+}

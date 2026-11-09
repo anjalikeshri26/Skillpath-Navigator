@@ -1,0 +1,56 @@
+{
+  "topic": "Operating Systems",
+  "category": "Core computer science",
+  "description": "Placement preparation: Operating Systems",
+  "estimated_hours": 15,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which scheduling algorithm gives each process a fixed time slice in turn?",
+      "options": [
+        "FCFS",
+        "Round robin",
+        "Shortest job first",
+        "Priority scheduling"
+      ],
+      "answer_index": 1,
+      "explanation": "Round robin cycles through processes using a time quantum."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What is a process?",
+      "options": [
+        "A program in execution",
+        "A file on disk",
+        "A CPU register",
+        "A device driver"
+      ],
+      "answer_index": 0,
+      "explanation": "A process is an executing instance of a program with its own address space."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "Which is not a necessary condition for deadlock?",
+      "options": [
+        "Mutual exclusion",
+        "Hold and wait",
+        "Preemption",
+        "Circular wait"
+      ],
+      "answer_index": 2,
+      "explanation": "Deadlock requires no preemption; if resources can be preempted that condition is broken."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "Belady's anomaly can occur with which page replacement policy?",
+      "options": [
+        "LRU",
+        "Optimal",
+        "FIFO",
+        "None of them"
+      ],
+      "answer_index": 2,
+      "explanation": "With FIFO, adding frames can increase page faults for some reference strings."
+    }
+  ]
+}

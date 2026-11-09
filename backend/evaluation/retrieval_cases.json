@@ -1,0 +1,17 @@
+{
+  "note": "Query -> acceptable resource ids from app/data/resources.json. Extend as the catalogue grows.",
+  "cases": [
+    {"query": "window functions joins aggregate queries", "relevant": ["sql-pgtutorial", "sql-sqlbolt", "sql-sqlzoo"]},
+    {"query": "deadlock scheduling paging virtual memory", "relevant": ["os-ostep"]},
+    {"query": "tcp congestion control routing", "relevant": ["cn-kurose", "cn-gfg"]},
+    {"query": "docker containers images compose", "relevant": ["docker-start"]},
+    {"query": "practice trees graphs dynamic programming problems", "relevant": ["dsa-neetcode", "dsa-visualgo", "dsa-cpalgo"]},
+    {"query": "overfitting regularisation classification regression", "relevant": ["ml-mlcc", "ml-sklearn"]},
+    {"query": "sql injection cross site scripting labs", "relevant": ["sec-portswigger", "sec-owasp"]},
+    {"query": "dataframe groupby merge missing data", "relevant": ["pandas-10min"]},
+    {"query": "git branching merging rebasing", "relevant": ["git-book"]},
+    {"query": "neural networks training computer vision", "relevant": ["dl-fastai", "dl-book"]},
+    {"query": "caching load balancing consistency scalability", "relevant": ["sd-primer", "sd-aws"]},
+    {"query": "design patterns solid principles", "relevant": ["oop-guru"]}
+  ]
+}

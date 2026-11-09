@@ -1,0 +1,56 @@
+{
+  "topic": "Artificial Intelligence",
+  "category": "Artificial intelligence",
+  "description": "Placement preparation: Artificial Intelligence",
+  "estimated_hours": 15,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which uninformed search explores the shallowest nodes first?",
+      "options": [
+        "Depth-first search",
+        "Breadth-first search",
+        "Hill climbing",
+        "Simulated annealing"
+      ],
+      "answer_index": 1,
+      "explanation": "BFS expands nodes level by level."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What does the heuristic h(n) estimate in A* search?",
+      "options": [
+        "Cost already paid to reach n",
+        "Estimated cost from n to the goal",
+        "Number of nodes in memory",
+        "Branching factor"
+      ],
+      "answer_index": 1,
+      "explanation": "A* orders nodes by f(n) = g(n) + h(n), where h estimates the remaining cost."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "Which property of h makes A* return an optimal path with tree search?",
+      "options": [
+        "Admissible (never overestimates)",
+        "Always overestimates",
+        "Always zero",
+        "Random"
+      ],
+      "answer_index": 0,
+      "explanation": "An admissible heuristic never overestimates the true remaining cost."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "What does alpha-beta pruning guarantee for minimax?",
+      "options": [
+        "A different value than minimax",
+        "The same value as minimax while possibly visiting fewer nodes",
+        "Always visiting fewer nodes",
+        "It only works for one player"
+      ],
+      "answer_index": 1,
+      "explanation": "Pruning removes branches that cannot affect the result, so the minimax value is unchanged."
+    }
+  ]
+}

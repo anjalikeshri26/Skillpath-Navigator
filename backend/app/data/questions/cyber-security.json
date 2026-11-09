@@ -1,0 +1,56 @@
+{
+  "topic": "Cyber Security",
+  "category": "Security",
+  "description": "Placement preparation: Cyber Security",
+  "estimated_hours": 20,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "What does HTTPS add over HTTP?",
+      "options": [
+        "Encryption and server authentication via TLS",
+        "Faster page loads",
+        "Automatic caching",
+        "Compression only"
+      ],
+      "answer_index": 0,
+      "explanation": "TLS protects confidentiality and integrity and verifies the server's identity."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What is phishing?",
+      "options": [
+        "Deceptive messages that trick people into revealing credentials",
+        "Physical damage to network cables",
+        "Brute-forcing an open port",
+        "Wiping a disk"
+      ],
+      "answer_index": 0,
+      "explanation": "Phishing is a social-engineering attack."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "Which measure best prevents SQL injection?",
+      "options": [
+        "Parameterised queries",
+        "Longer passwords",
+        "Hiding the database port",
+        "Disabling cookies"
+      ],
+      "answer_index": 0,
+      "explanation": "Parameterised queries keep user input separate from SQL code."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "Why store passwords with a slow, salted hash such as bcrypt instead of plain SHA-256?",
+      "options": [
+        "It slows brute-force attacks and gives identical passwords different hashes",
+        "It makes passwords recoverable",
+        "It reduces storage",
+        "It removes the need for HTTPS"
+      ],
+      "answer_index": 0,
+      "explanation": "A per-password salt defeats rainbow tables and a tunable work factor makes guessing expensive."
+    }
+  ]
+}

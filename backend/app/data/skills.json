@@ -1,0 +1,42 @@
+{
+  "level_factor": {"Beginner": 1.0, "Intermediate": 0.7, "Advanced": 0.45},
+  "roles": {
+    "Software Engineer": {"dsa": 3, "oop": 2, "dbms": 2, "sql": 2, "os": 2, "cn": 2, "git": 1, "rest_apis": 1, "system_design": 1, "logical": 1, "aptitude": 1},
+    "Python Developer": {"python": 3, "sql": 2, "web_frameworks": 2, "rest_apis": 2, "dsa": 2, "oop": 2, "git": 1, "docker": 1},
+    "AI/ML Engineer": {"python": 3, "ml": 3, "numpy": 2, "pandas": 2, "statistics": 2, "model_eval": 2, "deep_learning": 2, "llms": 1, "sql": 1, "dsa": 1, "ai_fundamentals": 1},
+    "Data Analyst": {"sql": 3, "pandas": 3, "statistics": 3, "python": 2, "data_viz": 2, "numpy": 1, "logical": 1, "aptitude": 1},
+    "Data Scientist": {"python": 3, "statistics": 3, "ml": 3, "pandas": 2, "numpy": 2, "sql": 2, "model_eval": 2, "data_viz": 1},
+    "Java Backend Developer": {"java": 3, "oop": 3, "dsa": 2, "sql": 2, "dbms": 2, "rest_apis": 2, "git": 1, "system_design": 1},
+    "Cyber Security Analyst": {"cyber_security": 3, "cn": 3, "os": 2, "python": 1, "sql": 1, "logical": 1},
+    "Systems Programmer (C/C++)": {"c_lang": 3, "cpp": 2, "os": 3, "dsa": 2, "cn": 1}
+  },
+  "skills": {
+    "dsa": {"name": "DSA", "topic": "DSA", "hours": 40, "prerequisites": [], "aliases": ["dsa", "data structures", "algorithms", "data structures and algorithms", "leetcode", "competitive programming"]},
+    "python": {"name": "Python", "topic": "Python", "hours": 20, "prerequisites": [], "aliases": ["python", "python3"]},
+    "java": {"name": "Java", "topic": "Java", "hours": 25, "prerequisites": [], "aliases": ["java", "jdk", "spring boot"]},
+    "c_lang": {"name": "C", "topic": "C", "hours": 20, "prerequisites": [], "aliases": [{"text": "C", "case_sensitive": true}, "c programming", "c language"]},
+    "cpp": {"name": "C++", "topic": "C++", "hours": 25, "prerequisites": ["oop"], "aliases": ["c++", "cpp"]},
+    "oop": {"name": "OOP", "topic": "OOP", "hours": 12, "prerequisites": [], "aliases": ["oop", "oops", "object oriented", "object-oriented", "design patterns"]},
+    "sql": {"name": "SQL", "topic": "SQL", "hours": 12, "prerequisites": [], "aliases": ["sql", "mysql", "postgresql", "postgres", "sqlite", "t-sql", "plsql"]},
+    "dbms": {"name": "DBMS", "topic": "DBMS", "hours": 15, "prerequisites": ["sql"], "aliases": ["dbms", "database management", "normalization", "acid properties"]},
+    "os": {"name": "Operating Systems", "topic": "Operating Systems", "hours": 15, "prerequisites": [], "aliases": ["operating systems", "operating system", "process scheduling", "deadlock", "linux kernel"]},
+    "cn": {"name": "Computer Networks", "topic": "Computer Networks", "hours": 15, "prerequisites": [], "aliases": ["computer networks", "networking", "tcp/ip", "osi model", "dns", "subnetting"]},
+    "git": {"name": "Git", "topic": null, "hours": 4, "prerequisites": [], "aliases": ["git", "github", "gitlab"]},
+    "rest_apis": {"name": "REST APIs", "topic": null, "hours": 6, "prerequisites": [], "aliases": ["rest", "rest api", "rest apis", "restful", "api development"]},
+    "web_frameworks": {"name": "Python web frameworks", "topic": null, "hours": 10, "prerequisites": ["python", "rest_apis"], "aliases": ["fastapi", "flask", "django"]},
+    "docker": {"name": "Docker", "topic": null, "hours": 8, "prerequisites": [], "aliases": ["docker", "docker-compose", "containerization"]},
+    "numpy": {"name": "NumPy", "topic": "Data Science", "hours": 8, "prerequisites": ["python"], "aliases": ["numpy"]},
+    "pandas": {"name": "Pandas", "topic": "Data Science", "hours": 12, "prerequisites": ["python", "numpy"], "aliases": ["pandas", "dataframe"]},
+    "statistics": {"name": "Statistics", "topic": "Data Science", "hours": 20, "prerequisites": [], "aliases": ["statistics", "statistical", "hypothesis testing", "probability", "regression analysis"]},
+    "data_viz": {"name": "Data visualization", "topic": "Data Science", "hours": 8, "prerequisites": ["pandas"], "aliases": ["matplotlib", "seaborn", "tableau", "power bi", "data visualization", "plotly"]},
+    "ml": {"name": "Machine Learning", "topic": "Machine Learning", "hours": 30, "prerequisites": ["python", "numpy", "statistics"], "aliases": ["machine learning", "scikit-learn", "sklearn", "random forest", "xgboost", "supervised learning"]},
+    "model_eval": {"name": "Model evaluation", "topic": "Machine Learning", "hours": 10, "prerequisites": ["ml"], "aliases": ["model evaluation", "cross-validation", "cross validation", "confusion matrix", "roc auc", "f1 score"]},
+    "deep_learning": {"name": "Deep learning", "topic": null, "hours": 30, "prerequisites": ["ml"], "aliases": ["deep learning", "neural network", "neural networks", "pytorch", "tensorflow", "keras", "cnn", "lstm"]},
+    "llms": {"name": "LLM applications", "topic": null, "hours": 12, "prerequisites": ["python", "ml"], "aliases": ["llm", "llms", "large language model", "large language models", "langchain", "rag", "prompt engineering", "openai api", "groq", "embeddings", "vector database"]},
+    "ai_fundamentals": {"name": "AI fundamentals", "topic": "Artificial Intelligence", "hours": 15, "prerequisites": [], "aliases": ["artificial intelligence", "a* search", "search algorithms", "knowledge representation", "nlp", "computer vision"]},
+    "system_design": {"name": "System design", "topic": "System Design", "hours": 20, "prerequisites": ["cn", "dbms"], "aliases": ["system design", "scalability", "load balancing", "microservices", "distributed systems", "caching"]},
+    "cyber_security": {"name": "Cyber security", "topic": "Cyber Security", "hours": 20, "prerequisites": ["cn"], "aliases": ["cyber security", "cybersecurity", "owasp", "penetration testing", "network security", "cryptography", "ethical hacking", "vulnerability"]},
+    "logical": {"name": "Logical reasoning", "topic": "Logical Reasoning", "hours": 10, "prerequisites": [], "aliases": ["logical reasoning", "reasoning"]},
+    "aptitude": {"name": "Aptitude", "topic": "Aptitude", "hours": 12, "prerequisites": [], "aliases": ["aptitude", "quantitative"]}
+  }
+}

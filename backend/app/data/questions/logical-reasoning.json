@@ -1,0 +1,56 @@
+{
+  "topic": "Logical Reasoning",
+  "category": "Aptitude",
+  "description": "Placement preparation: Logical Reasoning",
+  "estimated_hours": 10,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "What comes next in the series 2, 4, 8, 16, ?",
+      "options": [
+        "24",
+        "32",
+        "30",
+        "18"
+      ],
+      "answer_index": 1,
+      "explanation": "Each term doubles the previous one."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "All roses are flowers. Some flowers fade quickly. Which conclusion must be true?",
+      "options": [
+        "All roses fade quickly",
+        "Some roses fade quickly",
+        "No definite conclusion about roses fading",
+        "No roses fade quickly"
+      ],
+      "answer_index": 2,
+      "explanation": "The premises do not say whether any rose belongs to the quickly fading flowers."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "A is taller than B, B is taller than C, and D is shorter than C. Who is the shortest?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_index": 3,
+      "explanation": "The order is A > B > C > D."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "What comes next in 3, 6, 11, 18, 27, ?",
+      "options": [
+        "36",
+        "38",
+        "40",
+        "35"
+      ],
+      "answer_index": 1,
+      "explanation": "The differences are 3, 5, 7, 9, so the next difference is 11 and the term is 38."
+    }
+  ]
+}

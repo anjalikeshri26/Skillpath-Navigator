@@ -1,0 +1,56 @@
+{
+  "topic": "Machine Learning",
+  "category": "Artificial intelligence",
+  "description": "Placement preparation: Machine Learning",
+  "estimated_hours": 30,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which learning setting uses labelled examples?",
+      "options": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Clustering",
+        "Dimensionality reduction"
+      ],
+      "answer_index": 0,
+      "explanation": "Supervised learning learns a mapping from inputs to known labels."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What does overfitting describe?",
+      "options": [
+        "Good training performance but poor performance on unseen data",
+        "A model that is too simple",
+        "Too little training time",
+        "A slow model"
+      ],
+      "answer_index": 0,
+      "explanation": "An overfit model memorises noise in the training data."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "On a dataset where 99% of examples are negative, which pair of metrics is more informative than accuracy?",
+      "options": [
+        "Precision and recall",
+        "Epochs and batch size",
+        "Learning rate and momentum",
+        "Bias and variance of the weights"
+      ],
+      "answer_index": 0,
+      "explanation": "Accuracy can be 99% for a model that predicts only the majority class; precision and recall expose that."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "What does L2 regularisation add to the loss?",
+      "options": [
+        "A penalty on the sum of absolute weights",
+        "A penalty on the sum of squared weights",
+        "A count of non-zero weights",
+        "A penalty on the number of layers"
+      ],
+      "answer_index": 1,
+      "explanation": "L2 (ridge / weight decay) penalises squared weights; L1 penalises absolute weights."
+    }
+  ]
+}

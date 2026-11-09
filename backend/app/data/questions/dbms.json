@@ -1,0 +1,56 @@
+{
+  "topic": "DBMS",
+  "category": "Databases",
+  "description": "Placement preparation: DBMS",
+  "estimated_hours": 15,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "A primary key must be:",
+      "options": [
+        "Nullable",
+        "Unique and non-null",
+        "A text column",
+        "A foreign key"
+      ],
+      "answer_index": 1,
+      "explanation": "A primary key uniquely identifies each row and cannot be NULL."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "Which normal form removes partial dependencies on a composite key?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer_index": 1,
+      "explanation": "2NF requires that non-key attributes depend on the whole key."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "Which ACID property guarantees that committed data survives a crash?",
+      "options": [
+        "Atomicity",
+        "Consistency",
+        "Isolation",
+        "Durability"
+      ],
+      "answer_index": 3,
+      "explanation": "Durability means committed changes persist, typically via a write-ahead log."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "A transaction re-runs a range query and sees new rows inserted by another committed transaction. What is this anomaly?",
+      "options": [
+        "Dirty read",
+        "Non-repeatable read",
+        "Phantom read",
+        "Lost update"
+      ],
+      "answer_index": 2,
+      "explanation": "A phantom read occurs when the set of rows matching a predicate changes between reads."
+    }
+  ]
+}

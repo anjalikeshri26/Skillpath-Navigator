@@ -1,0 +1,56 @@
+{
+  "topic": "C++",
+  "category": "Programming languages",
+  "description": "Placement preparation: C++",
+  "estimated_hours": 25,
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "prompt": "Which operator accesses a member through a pointer to an object?",
+      "options": [
+        ".",
+        "->",
+        "::",
+        "&"
+      ],
+      "answer_index": 1,
+      "explanation": "ptr->member is shorthand for (*ptr).member."
+    },
+    {
+      "difficulty": "Easy",
+      "prompt": "What lets several functions share a name but differ in parameter lists?",
+      "options": [
+        "Function overloading",
+        "Function overriding",
+        "Inheritance",
+        "Encapsulation"
+      ],
+      "answer_index": 0,
+      "explanation": "Overloading resolves the call at compile time using the argument types."
+    },
+    {
+      "difficulty": "Medium",
+      "prompt": "Which smart pointer models sole ownership of a heap object?",
+      "options": [
+        "shared_ptr",
+        "weak_ptr",
+        "unique_ptr",
+        "raw pointer"
+      ],
+      "answer_index": 2,
+      "explanation": "unique_ptr cannot be copied and deletes the object when it goes out of scope."
+    },
+    {
+      "difficulty": "Hard",
+      "prompt": "Why should a base class meant for polymorphic use have a virtual destructor?",
+      "options": [
+        "So deleting through a base pointer runs the derived destructor",
+        "To make the class abstract",
+        "To allow copying",
+        "To forbid inheritance"
+      ],
+      "answer_index": 0,
+      "explanation": "Without it, deleting a derived object via a base pointer is undefined behaviour."
+    }
+  ]
+}
